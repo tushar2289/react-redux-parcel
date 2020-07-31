@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Maps API should return the places 1`] = `
+Array [
+  Object {
+    "icon": "icon",
+    "id": "id",
+    "lat": undefined,
+    "lng": undefined,
+    "name": "Mumbai",
+    "photo": null,
+    "rating": 5,
+    "types": Array [
+      "restaurant",
+    ],
+    "user_ratings_total": 666,
+  },
+]
+`;

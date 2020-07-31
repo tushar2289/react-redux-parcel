@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should not update location of user since geo location isnt mocked 1`] = `
+Object {
+  "lat": 0,
+  "lng": 0,
+}
+`;
+
+exports[`App component should render properly 1`] = `"<header class=\\"MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary makeStyles-appBar-1 mui-fixed MuiPaper-elevation4\\"><div class=\\"MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters\\"><div class=\\"MuiGrid-root MuiGrid-container MuiGrid-align-content-xs-center MuiGrid-justify-xs-space-between\\"><div class=\\"MuiGrid-root MuiGrid-item\\"><button class=\\"MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-2 MuiIconButton-colorInherit MuiIconButton-edgeStart\\" tabindex=\\"0\\" type=\\"button\\" aria-label=\\"open drawer\\"><span class=\\"MuiIconButton-label\\"><svg class=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\"><path d=\\"M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z\\"></path></svg></span><span class=\\"MuiTouchRipple-root\\"></span></button><h6 class=\\"MuiTypography-root MuiTypography-h6 MuiTypography-noWrap\\" style=\\"margin-top: 6px;\\">Places Nearby</h6></div><div class=\\"MuiGrid-root MuiGrid-item\\"><button class=\\"MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit\\" tabindex=\\"0\\" type=\\"button\\" aria-label=\\"Get current location\\" data-testid=\\"get_location_button\\" title=\\"Get current location\\"><span class=\\"MuiIconButton-label\\"><svg class=\\"MuiSvgIcon-root\\" focusable=\\"false\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\"><path d=\\"M20.94 11c-.46-4.17-3.77-7.48-7.94-7.94V1h-2v2.06C6.83 3.52 3.52 6.83 3.06 11H1v2h2.06c.46 4.17 3.77 7.48 7.94 7.94V23h2v-2.06c4.17-.46 7.48-3.77 7.94-7.94H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z\\"></path></svg></span><span class=\\"MuiTouchRipple-root\\"></span></button></div></div></div></header>"`;
+
+exports[`App component should update location 1`] = `
+Object {
+  "lat": 10,
+  "lng": 10,
+}
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Current location reducer should return initial state 1`] = `
+Object {
+  "lat": 19.170078,
+  "lng": 72.860186,
+}
+`;
+
+exports[`Current location reducer should set theme 1`] = `
+Object {
+  "lat": 100,
+  "lng": 100,
+}
+`;

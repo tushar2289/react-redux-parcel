@@ -1,0 +1,9 @@
+export const RESTAURANT = 'restaurant';
+export const BANK = 'bank';
+export const HOSPITAL = 'hospital';
+export const ATM = 'atm';
+export const AIRPORT = 'airport';
+export const TRAIN_STATION = 'train_station';
+export const SUPERMARKET = 'supermarket';
+export const GAS_STATION = 'gas_station';
+export const SHOPPING_MALL = 'shopping_mall';

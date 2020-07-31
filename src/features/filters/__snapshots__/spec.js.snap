@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Place type reducer should return initial state 1`] = `
+Object {
+  "airport": Object {
+    "isOn": false,
+    "label": "Airport",
+    "type": "airport",
+  },
+  "atm": Object {
+    "isOn": false,
+    "label": "ATM",
+    "type": "atm",
+  },
+  "bank": Object {
+    "isOn": false,
+    "label": "Bank",
+    "type": "bank",
+  },
+  "gas_station": Object {
+    "isOn": false,
+    "label": "Fuel pump",
+    "type": "gas_station",
+  },
+  "hospital": Object {
+    "isOn": false,
+    "label": "Hospital",
+    "type": "hospital",
+  },
+  "restaurant": Object {
+    "isOn": true,
+    "label": "Restaurant",
+    "type": "restaurant",
+  },
+  "shopping_mall": Object {
+    "isOn": false,
+    "label": "Mall",
+    "type": "shopping_mall",
+  },
+  "supermarket": Object {
+    "isOn": false,
+    "label": "Supermarket",
+    "type": "supermarket",
+  },
+  "train_station": Object {
+    "isOn": false,
+    "label": "Train station",
+    "type": "train_station",
+  },
+}
+`;
+
+exports[`Place type reducer should set and then reset all the place types 1`] = `
+Object {
+  "airport": Object {
+    "isOn": false,
+    "label": "Airport",
+    "type": "airport",
+  },
+  "atm": Object {
+    "isOn": false,
+    "label": "ATM",
+    "type": "atm",
+  },
+  "bank": Object {
+    "isOn": false,
+    "label": "Bank",
+    "type": "bank",
+  },
+  "gas_station": Object {
+    "isOn": false,
+    "label": "Fuel pump",
+    "type": "gas_station",
+  },
+  "hospital": Object {
+    "isOn": false,
+    "label": "Hospital",
+    "type": "hospital",
+  },
+  "restaurant": Object {
+    "isOn": true,
+    "label": "Restaurant",
+    "type": "restaurant",
+  },
+  "shopping_mall": Object {
+    "isOn": false,
+    "label": "Mall",
+    "type": "shopping_mall",
+  },
+  "supermarket": Object {
+    "isOn": false,
+    "label": "Supermarket",
+    "type": "supermarket",
+  },
+  "train_station": Object {
+    "isOn": false,
+    "label": "Train station",
+    "type": "train_station",
+  },
+}
+`;

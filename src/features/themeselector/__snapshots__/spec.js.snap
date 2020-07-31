@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Theme selector should return initial state 1`] = `
+Object {
+  "theme": null,
+}
+`;
+
+exports[`Theme selector should set theme 1`] = `
+Object {
+  "theme": "dark",
+}
+`;
