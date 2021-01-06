@@ -34,7 +34,7 @@
     "@react-google-maps/api": "^1.9.8",
     "@reduxjs/toolkit": "^1.4.0",
     "api": "^2.2.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "eslint-plugin-react": "^7.20.3",
     "react": "^16.8.3",
     "react-dom": "^16.13.1",
